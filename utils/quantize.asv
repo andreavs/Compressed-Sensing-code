@@ -1,0 +1,9 @@
+function [ x ] = quantize( x, percentage )
+%QUANTIZE(x, percentage) quantizes a vector
+%   sets all elements of a v
+
+
+
+
+end
+

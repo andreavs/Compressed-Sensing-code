@@ -1,0 +1,10 @@
+function [ output_args ] = curvetovec( input_args )
+%CURVETOVEC Summary of this function goes here
+%   Detailed explanation goes here
+a = []
+for i=1:length(C)
+    C_content = C{i};
+    for j = 1:length(C_content)
+        C_content_content
+end
+

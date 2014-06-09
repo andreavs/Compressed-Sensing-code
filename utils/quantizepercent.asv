@@ -1,0 +1,12 @@
+function [ output_args ] = quantizepercent( x, p )
+%QUANTIZEPERCENT(x,percent) zeroes out the small elements of a vector
+%   returns a vector such that the smallest p*N elements is zero
+%
+%   x is the input vector
+%
+%   p is the ratio of elements set to zero.
+
+m = max(max(abs(x)));
+[B, idx] = sort(x);
+end
+
